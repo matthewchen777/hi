@@ -6,9 +6,9 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_stutter" id="159">
+      <block type="movement_forward" id="102">
         <next>
-          <block type="movement_forward" id="102">
+          <block type="movement_stutter" id="205">
             <next>
               <block type="robot_delay" id="21" inline="true">
                 <value name="DELAY">
