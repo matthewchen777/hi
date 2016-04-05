@@ -6,9 +6,9 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="102">
+      <block type="movement_stutter" id="159">
         <next>
-          <block type="movement_stutter" id="148">
+          <block type="movement_forward" id="102">
             <next>
               <block type="robot_delay" id="21" inline="true">
                 <value name="DELAY">
@@ -40,6 +40,26 @@
                                 <field name="NUM">4</field>
                               </block>
                             </value>
+                            <next>
+                              <block type="led_select" id="168" inline="true">
+                                <field name="ACTION">ON</field>
+                                <value name="LED">
+                                  <block type="math_number" id="169">
+                                    <field name="NUM">5</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="led_select" id="178" inline="true">
+                                    <field name="ACTION">ON</field>
+                                    <value name="LED">
+                                      <block type="math_number" id="179">
+                                        <field name="NUM">6</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
                           </block>
                         </next>
                       </block>
