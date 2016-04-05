@@ -44,22 +44,4 @@
       </block>
     </next>
   </block>
-  <block type="led_select" id="128" inline="true" x="250" y="-80">
-    <field name="ACTION">ON</field>
-    <value name="LED">
-      <block type="math_number" id="129">
-        <field name="NUM">2</field>
-      </block>
-    </value>
-    <next>
-      <block type="led_select" id="274" inline="true">
-        <field name="ACTION">ON</field>
-        <value name="LED">
-          <block type="math_number" id="275">
-            <field name="NUM">4</field>
-          </block>
-        </value>
-      </block>
-    </next>
-  </block>
 </xml>
