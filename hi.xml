@@ -6,7 +6,17 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_stutter" id="205"></block>
+      <block type="movement_stutter" id="205">
+        <next>
+          <block type="robot_delay" id="254" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="255">
+                <field name="NUM">2000</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
     </statement>
     <next>
       <block type="controls_repeat" id="242" inline="true">
