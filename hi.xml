@@ -688,7 +688,4 @@
       </block>
     </next>
   </block>
-  <block type="math_number" id="148" x="2" y="-183">
-    <field name="NUM">0</field>
-  </block>
 </xml>
